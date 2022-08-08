@@ -1,0 +1,62 @@
+/*---------hero----------*/
+
+.hero{
+    margin-top: 1.6rem;
+    position: relative;
+
+    &__backimage{
+        height: 54.3rem;
+
+        img{
+            height: inherit;
+            object-fit: cover;
+        }
+    }
+
+    &__content{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        padding: 5.1rem;
+
+        h1{
+            color: var(--white);
+            margin-top: 2.5rem;
+            line-height: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        &__resalte{
+            color: var(--pink);
+        }
+
+        h6{
+            color: var(--white);
+            margin-top: 2rem;
+            line-height: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        &__reclame{
+            font-family: var(--especialFont);
+            color: var(--white);
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .hero {
+        position: relative;
+        max-width: 1340px;
+        margin: auto;
+        margin-top: 1.6rem;
+
+        &__content {
+            padding-left: 150px;
+            padding-top: 80px;
+            width: 500px;
+        }
+    }
+}

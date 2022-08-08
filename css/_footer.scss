@@ -1,0 +1,69 @@
+/*--------footer--------*/
+
+footer{
+    background-color: var(--blue-800);
+}
+
+.contFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.6rem;
+
+    &__logo-mcontigo{  
+        width: 19rem;
+        margin: 2.4rem;
+    }
+
+    &__copyright{
+        color: var(--white);
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: .8rem;
+    padding: 1.6rem;
+}
+
+.about__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    li{
+        padding: .8rem 0;
+    }
+
+    a{
+        font-family: var(--secundaryFont);
+        font-size: 1.6rem;
+        letter-spacing: .05rem;
+        color: var(--white);
+    }
+}
+
+@media (min-width: 768px) {
+    .contFooter {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 60px 0px 16px 0;
+        max-width: 70rem;
+    }
+    .contFooter__logo-mcontigo img{
+        width: 22rem;
+    }
+    .contFooter__copyright {
+        width: 48rem;
+    }
+    .about__list {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+}

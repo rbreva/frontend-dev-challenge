@@ -1,0 +1,79 @@
+/*-------Globales-------*/
+
+body {
+    background-color: var(--white);
+    font-size: 1.6rem;
+    font-family: var(--principalFont);
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 106rem;
+    margin: auto;
+}
+
+h1, h6{
+    font-family: var(--secundaryFont);
+    font-weight: bold;
+    font-size: 4rem;
+    margin: 0;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h6{
+    font-size: 2.4rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space{
+    padding: .8rem;
+}
+
+.shadow{
+    box-shadow: 0px 4px 16px 0px #0000001a;
+}
+
+p, ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.separador{
+    width: 100%;
+    padding: .8rem;
+}
+
+.separador img{
+    height: 0.8rem;
+    object-fit: cover;
+}
+
+/*--------main---------*/
+
+.main{
+    flex: 1;
+    margin-top: 4.8rem;
+}

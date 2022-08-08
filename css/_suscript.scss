@@ -1,0 +1,99 @@
+/*---------suscript----------*/
+
+.suscript{
+    position: relative;
+    height: 340px;
+}
+
+.suscript__background{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 230px;
+    background-color: #ECF0F7;
+}
+
+.suscript__content{
+    position: absolute;
+    bottom: 0;
+}
+
+.suscript__img{
+    width: 100%;
+    text-align: center;
+}
+
+.suscript__form{
+    padding: 1rem 1.6rem 4rem;
+
+    &__title{
+        font-family: var(--secundaryFont);
+        font-weight: bold;
+        font-size: 2.4rem;
+        color: var(--grey-800);
+    }
+
+    &__text{
+        font-size: 1.6rem;
+        color: var(--grey-800);
+        padding: .8rem 0;
+    }
+
+    &__form{
+        border: 1px solid var(--grey-200);
+        padding: .8rem;
+        border-radius: .5rem;
+        display: flex;
+        justify-content: space-between;
+
+        input{
+            padding: .8rem;
+            border: none;
+            background: transparent;
+
+            &::placeholder{
+                font-family: var(--secundaryFont);
+                color: var(--grey-300);
+            }
+        }
+
+        &--btn{
+            font-family: var(--secundaryFont);
+            background-color: var(--grey-600);
+            padding: 1rem 1.2rem;
+            border-radius: .5rem;
+            border: none;
+            color: var(--white);
+        }
+    }
+}
+
+@media (min-width: 768px) {
+
+    .suscript {
+        height: 260px;
+    }
+
+    .suscript__background {
+        height: 180px;
+    }
+
+    .suscript__content {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 2fr 2fr 1fr;
+    }
+
+    .suscript__img{
+        grid-column: 2/3;
+
+        img{
+            width: 330px;
+        }
+    }
+
+    .suscript__form {
+        padding: 4.8rem 1.6rem 4rem;
+    }
+
+}

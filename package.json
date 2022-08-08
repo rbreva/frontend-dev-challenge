@@ -1,0 +1,23 @@
+{
+  "name": "frontend-dev-challenge",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <a href='https://weremote.net'>\r     <img src=\"https://weremote.net/wp-content/uploads/2021/04/Logo-WR.svg\" width=\"300\" />\r   </a>\r </p>\r <br />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbreva/frontend-dev-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbreva/frontend-dev-challenge/issues"
+  },
+  "homepage": "https://github.com/rbreva/frontend-dev-challenge#readme",
+  "devDependencies": {
+    "sass": "^1.54.3"
+  }
+}
